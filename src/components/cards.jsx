@@ -47,10 +47,12 @@ function Cards() {
           </div>
           <div className="thirdCard">
             <div className="hp1">
-              <h4>
-                <img src="src/assets/Frame 363 (1).png" />
-                Race toward goodness
-              </h4>
+              <p>
+                <img src="src/assets/Frame 363 (1).png" className="image3" />
+                <b>Race toward goodness</b>
+              </p>
+              <br />
+
               <p>
                 Compenting and striving in a goodness having speed and accuracy
                 in doing a good deeds.Trained to act swiftly in matters,

@@ -50,16 +50,37 @@
 
 .secondCard {
   background-color: #67629d;
-  color: white;
   border: 1px solid #dce6f0;
+  color: white;
   border-radius: 16px;
   padding: 25px;
   width: 300px;
   transition: box-shadow 0.3s ease;
 }
+
 .img2 {
   background-color: #62819d;
-  border-radius: 20px;
-  width: 72px;
-  height: 72px;
+  width: 32px;
+  height: 32px;
+}
+
+.img3 {
+  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+}
+.hp1 p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.img1,
+.img2,
+.image3 {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+  object-fit: cover;
+  border-radius: 8px;
 }
