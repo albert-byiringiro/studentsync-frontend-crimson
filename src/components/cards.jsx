@@ -10,7 +10,6 @@ function Cards() {
           <div className="firstCard">
             <div className="hp1">
               <p>
-                {" "}
                 <img
                   src="src/assets/hand-heart-line 1.png"
                   alt="Transformation image"
@@ -32,10 +31,8 @@ function Cards() {
           <div className="secondCard">
             <div className="hp1">
               <p className="secondClassP1">
-                {" "}
                 <b>
-                  {" "}
-                  <img src="src/assets/Frame 362.png" className="img2" />{" "}
+                  <img src="src/assets/Frame 362.png" className="img2" />
                   Discipline and productive
                 </b>
               </p>

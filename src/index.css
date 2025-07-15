@@ -2,12 +2,12 @@
   background-color: #f9fbfc;
   padding: 60px 30px;
   border-radius: 20px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .vibrants {
   font-size: 24px;
-  color: #83C727;
+  color: #83c727;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -15,8 +15,8 @@
 .managements {
   font-size: 30px;
   font-weight: 600;
-  color:#004B2F;
-    text-align: center;
+  color: #004b2f;
+  text-align: center;
 }
 
 .allCards {
@@ -26,7 +26,8 @@
   flex-wrap: wrap;
 }
 
-.firstCard,  .thirdCard {
+.firstCard,
+.thirdCard {
   background-color: #ffffff;
   border: 1px solid #dce6f0;
   border-radius: 16px;
@@ -38,7 +39,7 @@
 .firstCard:hover,
 .secondCard:hover,
 .thirdCard:hover {
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .hp1 p {
@@ -47,9 +48,8 @@
   text-align: left;
 }
 
-
-.secondCard{
-  background-color:#67629D;
+.secondCard {
+  background-color: #67629d;
   color: white;
   border: 1px solid #dce6f0;
   border-radius: 16px;
@@ -57,9 +57,9 @@
   width: 300px;
   transition: box-shadow 0.3s ease;
 }
-.img2{
- background-color: #62819d;
- border-radius: 20px;
- width:72px;
- height: 72px;
+.img2 {
+  background-color: #62819d;
+  border-radius: 20px;
+  width: 72px;
+  height: 72px;
 }
