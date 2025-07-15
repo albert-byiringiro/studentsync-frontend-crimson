@@ -1,68 +1,86 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.body {
+  background-color: #f9fbfc;
+  padding: 60px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.vibrants {
+  font-size: 24px;
+  color: #83c727;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
-body {
-  margin: 0;
+.managements {
+  font-size: 30px;
+  font-weight: 600;
+  color: #004b2f;
+  text-align: center;
+}
+
+.allCards {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.firstCard,
+.thirdCard {
+  background-color: #ffffff;
+  border: 1px solid #dce6f0;
+  border-radius: 16px;
+  padding: 25px;
+  width: 300px;
+  transition: box-shadow 0.3s ease;
 }
 
-button {
+.firstCard:hover,
+.secondCard:hover,
+.thirdCard:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hp1 p {
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.secondCard {
+  background-color: #67629d;
+  border: 1px solid #dce6f0;
+  color: white;
+  border-radius: 16px;
+  padding: 25px;
+  width: 300px;
+  transition: box-shadow 0.3s ease;
+}
+
+.img2 {
+  background-color: #62819d;
+  width: 32px;
+  height: 32px;
+}
+
+.img3 {
+  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+}
+.hp1 p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.img1,
+.img2,
+.image3 {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+  object-fit: cover;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
