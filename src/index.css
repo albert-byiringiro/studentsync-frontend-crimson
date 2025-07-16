@@ -1,15 +1,12 @@
 .foot{
-  margin-top:282px;
-  margin-left:-70px ;
-  margin-right:-70px;
-  background-color: rgb(240, 250, 250);
+  margin-top:273px;
+  background-color: hsl(180, 50%, 96%);
   display: block;
 }
 .our-address{
   font-family:Arial, sans-serif;
   font-size: 0.75em;
   padding: 15px;
-  border: 1px;
   margin-left:95px;
 }
 
@@ -17,31 +14,26 @@
   font-family:Arial, sans-serif;
   font-size: 0.75em;
   padding: 10px;
-  border: 1px;
    margin-left:300px;
 }
 .social-media{
   font-family:Arial, sans-serif;
   font-size: 0.75em;
   padding: 10px;
-  border: 1px;
    margin-left:100px;
 }
 .p1{
   font-family:Arial;
   font-size: 1em;
-  border: 1px;
   color:rgba(2, 50, 1, 0.804);
 }
 .p2{
   font-family:Arial;
   font-size: 0.7em;
-  padding:0px;
   color: rgb(11, 211, 11);
   
 }
 .hed h1, .hed h4 {
-  margin: 0;
     margin-left:112px;
     margin-top:-40px;
     padding-top:60px;
@@ -56,16 +48,14 @@
    }
    .home{
    display: flex;
-   padding-bottom: 0px;
-   padding-top:0px;
+  
    }
    .Image{
 width: 24px;
 height: 24px;
-margin: 0;
 padding-right:5px;
 margin-bottom:-4px;
    }
    .gasabo{
-    margin-left:30px;
+    margin-left:24px;
    }
