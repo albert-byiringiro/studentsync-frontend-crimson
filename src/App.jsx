@@ -1,13 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+
 import StudentList from "./pages/StudentList";
 import "./App.css";
+import Gallery from "./components/Gallery";
 
 const App = () => {
   return (
     <Router>
       <div className="app-container">
-        <Navbar />
+        <Gallery />
         <main className="main-content">
           <Routes>
             <Route path="/" element={<StudentList />} />
