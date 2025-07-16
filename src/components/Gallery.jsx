@@ -17,6 +17,10 @@ const Gallery = () => {
           <img className="img2" src="src/assets/Frame 386.png" />
           <img className="img3" src="src/assets/Frame 387.png" />
         </div>
+        <div className="moreDiv">
+          <p className="more">More pictures </p>
+          <img className="icon" src="src/assets/chevron-down.png" />
+        </div>
       </div>
     </section>
   );

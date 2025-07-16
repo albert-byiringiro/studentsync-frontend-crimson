@@ -1,89 +1,4 @@
-/* .body {
-  background-color: #f9fbfc;
-  padding: 60px 30px;
-  border-radius: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
 
-.vibrants {
-  font-size: 24px;
-  color: #83c727;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-.managements {
-  font-size: 30px;
-  font-weight: 600;
-  color: #004b2f;
-  text-align: center;
-}
-
-.allCards {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.firstCard,
-.thirdCard {
-  background-color: #ffffff;
-  border: 1px solid #dce6f0;
-  border-radius: 16px;
-  padding: 25px;
-  width: 300px;
-  transition: box-shadow 0.3s ease;
-}
-
-.firstCard:hover,
-.secondCard:hover,
-.thirdCard:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-}
-
-.hp1 p {
-  font-size: 12px;
-  line-height: 1.6;
-  text-align: left;
-}
-
-.secondCard {
-  background-color: #67629d;
-  border: 1px solid #dce6f0;
-  color: white;
-  border-radius: 16px;
-  padding: 25px;
-  width: 300px;
-  transition: box-shadow 0.3s ease;
-}
-
-.img2 {
-  background-color: #62819d;
-  width: 32px;
-  height: 32px;
-}
-
-.img3 {
-  border-radius: 10px;
-  width: 32px;
-  height: 32px;
-}
-.hp1 p {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.img1,
-.img2,
-.image3 {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 8px;
-  object-fit: cover;
-  border-radius: 8px;
-} */
 .gallery{
   
   font-size: 24px;
@@ -149,11 +64,27 @@ margin-top: 50px;
 .p4:hover{
   text-decoration: underline;
   color:#83c727;
+   
 
 }
 p{
   position: relative;
   display:inline-block;
   margin-bottom: 20px;
+   overflow-y: hidden
 }
 
+.more{
+   color:#83c727;
+   font-size: 12px;
+   margin-left: 1100px;
+   margin-top: 20px;
+}
+.moreDiv{
+  display: flex;
+}
+.icon{
+  width: 24px;
+  height: 24px;
+  margin-top: 15px;
+}
