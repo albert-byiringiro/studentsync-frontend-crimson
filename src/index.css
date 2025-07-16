@@ -44,12 +44,7 @@ button{
   color: white;
   background-color: #83C727;
 }
-#image-container{
-  max-width: 100%;
-  border: solid 100%;
+#first-image{
+  width:100px
+}
 
-}
-img{
-  max-width: 50%px;
-  display: block
-}

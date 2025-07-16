@@ -9,19 +9,23 @@ const HeroSection = () => {
         <button id="all-students">all students</button>
       </div>
       <div id="image-container">
-        <img
-          src="src/assets/hero_pics/54100351610_b2e6df9d55_o 1.png"
-          id="first-im"
-        />
-        <img src="src/assets/hero_pics/download 1.png" id="second-im" />
-        <img
-          src="src/assets/hero_pics/53998174142_660ae8a080_c 1.png"
-          id="third-im"
-        />
-        <img
-          src="src/assets/hero_pics/53999073171_9d71b8f1b6_k 2.png"
-          id="four-im"
-        />
+        <div>
+          <img
+            id="first-image"
+            src="src/assets/hero_pics/54100351610_b2e6df9d55_o 1.png"
+          />
+        </div>
+        <div id="other-images">
+          <img src="src/assets/hero_pics/download 1.png" id="second-im" />
+          <img
+            src="src/assets/hero_pics/53998174142_660ae8a080_c 1.png"
+            id="third-im"
+          />
+          <img
+            src="src/assets/hero_pics/53999073171_9d71b8f1b6_k 2.png"
+            id="four-im"
+          />
+        </div>
       </div>
     </div>
   );
