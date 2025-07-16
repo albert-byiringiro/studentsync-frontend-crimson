@@ -1,29 +1,108 @@
-.navbar-container{
-  margin: 8px;
-}
-#navbar-logo{
-  width: 60px;
-  margin-right: 350px;
-}
-button{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 8px;
-  color: #83C727;
-  background-color: whitesmoke;
-  border: none;
-  border-radius: 3px;
-  margin-inline: 10px;
-  margin-bottom: 5px;
-  padding: 5px;
+.landing-page{
+  width: 1920px;
+height: 2974px;
+background: #FFFFFF;
 
 }
-#navbar-add{
-  color: black;
+.navbar-container{
+width: 1920px;
+height: 144px;
+display: flex;
+padding: 10px;
 }
-#navbar-all{
-  border: solid, #83C727;
-  border-radius: 3px;
+
+.logo{
+width: 272px;
+height: 80px;
+top: 32px;
+left: 170px;
+padding: 16px;
+gap: 16px;
+display: flex;
+margin-right: 550px;
+box-sizing: border-box
 }
-button:hover{
-  background-color: hsl(0, 0%, 90%);
+
+#navbar-logo{
+width: 48px;
+height: 48px;
+}
+
+p{
+width: 176px;
+height: 36px;
+font-family: "poppins", sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-top:7px;
+color:#004B2F
+}
+
+.home{
+width: 81px;
+height: 56px;
+top: 44px;
+left: 1229px;
+padding: 16px;
+gap: 8px;
+}
+
+.navbar-home{
+width: 49px;
+height: 24px;
+font-family: Poppins, sans-serif;
+font-weight: 600px;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #83C727;
+}
+
+.add-student{
+  width: 137px;
+height: 56px;
+top: 44px;
+left: 1381px;
+padding: 16px;
+gap: 8px;
+}
+
+.navbar-add{
+  width: 105px;
+height: 24px;
+font-family: Poppins, sans-serif;
+font-weight: 500px;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #686868;
+}
+
+.all-student{
+  width: 177px;
+height: 56px;
+top: 44px;
+left: 1589px;
+gap: 8px;
+border-radius: 8px;
+border-width: 3px;
+padding-top: 16px;
+padding-right: 40px;
+padding-bottom: 16px;
+padding-left: 40px;
+border: solid 3px #83C727
+}
+
+.navbar-add{
+font-family: Poppins, sans-serif;
+font-weight: 600px;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #83C727
 }
