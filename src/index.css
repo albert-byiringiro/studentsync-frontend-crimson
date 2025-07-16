@@ -1,68 +1,61 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.foot{
+  margin-top:273px;
+  background-color: hsl(180, 50%, 96%);
+  display: block;
+}
+.our-address{
+  font-family:Arial, sans-serif;
+  font-size: 0.75em;
+  padding: 15px;
+  margin-left:95px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+.contact-us{
+  font-family:Arial, sans-serif;
+  font-size: 0.75em;
+  padding: 10px;
+   margin-left:300px;
 }
-a:hover {
-  color: #535bf2;
+.social-media{
+  font-family:Arial, sans-serif;
+  font-size: 0.75em;
+  padding: 10px;
+   margin-left:100px;
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+.p1{
+  font-family:Arial;
   font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  color:rgba(2, 50, 1, 0.804);
 }
-button:hover {
-  border-color: #646cff;
+.p2{
+  font-family:Arial;
+  font-size: 0.7em;
+  color: rgb(11, 211, 11);
+  
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+.hed h1, .hed h4 {
+    margin-left:112px;
+    margin-top:-40px;
+    padding-top:60px;
+   }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+.cop{ 
+  text-align: center; 
+   font-size:0.75em;
+   border-top: 2px solid rgba(0, 0, 0, 0.158);
+   padding-top:20px;
+   padding-bottom:15px;
+   }
+   .home{
+   display: flex;
+  
+   }
+   .Image{
+width: 24px;
+height: 24px;
+padding-right:5px;
+margin-bottom:-4px;
+   }
+   .gasabo{
+    margin-left:24px;
+   }
