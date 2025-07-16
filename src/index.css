@@ -1,89 +1,75 @@
-
-.gallery{
-  
+.gallery {
   font-size: 24px;
   color: #83c727;
   letter-spacing: 1px;
   text-align: center;
-
-
 }
-h2{
+h2 {
   font-size: 30px;
   font-weight: 600;
   color: #004b2f;
-  text-align: center;  
+  text-align: center;
 }
-.paragraph{
-    display: flex;
+.paragraph {
+  display: flex;
   gap: 50px;
   justify-content: center;
   flex-wrap: wrap;
-font-family: 'Poppins', sans-serif;
-font-weight: 200;
-font-style: normal;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-.images{
-   display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   gap: 40px;
-width: 527px;
-height:220px;
-margin-left: 50px;
-margin-top: 50px;
- border: 1px solid #dce6f0;
+  width: 527px;
+  height: 220px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border: 1px solid #dce6f0;
   border-radius: 16px;
-
-  
-
-
-  }
-
-.p1:hover{
-  text-decoration: underline;
-  color:#83c727;
-
 }
-.p2:hover{
-  text-decoration: underline;
-  color:#83c727;
 
-}
-.p3:hover{
+.p1:hover {
   text-decoration: underline;
-  color:#83c727;
-
+  color: #83c727;
 }
-.p4:hover{
+.p2:hover {
   text-decoration: underline;
-  color:#83c727;
-   
-
+  color: #83c727;
 }
-p{
+.p3:hover {
+  text-decoration: underline;
+  color: #83c727;
+}
+.p4:hover {
+  text-decoration: underline;
+  color: #83c727;
+}
+p {
   position: relative;
-  display:inline-block;
+  display: inline-block;
   margin-bottom: 20px;
-   overflow-y: hidden
+  overflow-y: hidden;
 }
 
-.more{
-   color:#83c727;
-   font-size: 12px;
-   margin-left: 1100px;
-   margin-top: 20px;
+.more {
+  color: #83c727;
+  font-size: 12px;
+  margin-left: 1100px;
+  margin-top: 20px;
 }
-.moreDiv{
+.moreDiv {
   display: flex;
 }
-.icon{
+.icon {
   width: 24px;
   height: 24px;
   margin-top: 15px;
