@@ -1,50 +1,158 @@
-#hero-container{
+.landing-page {
+width: 1920;
+height: 2974;
+overflow: hidden;
+}
+.hero-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  width: 100%;
+}
+.text-container {
+  position: relative;
+  width: 757px;
+  height: 388px;
+  top: 344px;
+  left: 160px;
+  border: solid;
 }
 
-#text-container{
-  border: none;
-  max-width: 50%;
-  height: auto;
-  margin-left: 10px;
+h3 {
+  position: absolute;
+  width: 536px;
+  height: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #83c727;
 }
 
-h3{
-  color: #83C727;
-  font-weight: bold;
-  font-size: 10px;
-  padding: 4px
-}
-h1{
- font-size: auto;
- font-size: medium;
- color: #004B2F;
- width: 70%;
- padding: 4px
-}
-p{
-  font-size: 10px;
-  color: #D49104;
-  padding: 4px
-
-}
-button{
-  color: #83C727;
-  font-size: 7px;
-  margin-right: 15px;
-  border: solid 1px;
-  border-radius: 3px;
-  padding: 3px; 
-}
-#all-students{
-  color: white;
-  background-color: #83C727;
-}
-#first-image{
-  width:100px
+h1 {
+  position: absolute;
+  width: 773px;
+  height: 192px;
+  top: 56px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #004b2f;
 }
 
+.p1 {
+  position: absolute;
+  width: 519px;
+  height: 36px;
+  top: 256px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #d49104;
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+}
+
+.button-1 {
+  position: absolute;
+  width: 140px;
+  height: 56px;
+  top: 332px;
+  border-radius: 8px;
+  border-width: 2px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  border: solid 2px #83c727;
+}
+
+.learn-more {
+  width: 90px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #83c727;
+}
+
+.button-2 {
+  position: absolute;
+  width: 145px;
+  height: 56px;
+  top: 332px;
+  left: 207px;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  background-color: #83c727;
+}
+
+.all-students {
+  width: 97px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.image-container {
+  width: 763px;
+  height: 589px;
+  top: 264px;
+  left: 997px;
+  border: solid;
+  position: relative;
+}
+
+.first-image {
+  width: 763px;
+  height: 342px;
+  border-radius: 32px;
+  position: absolute;
+}
+
+.second-image{
+width: 298px;
+height: 209px;
+top: 380px;
+border-radius: 32px;
+position: absolute;
+
+}
+
+.third-image{
+  width: 214px;
+height: 209px;
+top: 380px;
+left: 311px;
+border-radius: 32px;
+position:absolute;
+}
+
+.forth-image{
+width: 225px;
+height: 219px;
+top: 634px;
+left: 1535px;
+border-radius: 32px;
+position: absolute;
+}
