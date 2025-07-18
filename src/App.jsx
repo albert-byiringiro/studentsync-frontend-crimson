@@ -8,7 +8,6 @@ const App = () => {
   return (
     <Router>
       <div className="app-container">
-        <Navbar />
         <Home />
         <main className="main-content">
           <Routes>

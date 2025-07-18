@@ -1,7 +1,11 @@
+
+
+/*footer side*/
 .foot{
-  margin-top:273px;
+  margin-top:173px;
   background-color: hsl(180, 50%, 96%);
   display: block;
+  
 }
 .our-address{
   font-family:Arial, sans-serif;
