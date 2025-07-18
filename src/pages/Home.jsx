@@ -1,6 +1,12 @@
 import React from "react";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 function Home() {
-  return <Footer />;
+  return (
+    <>
+      <Navbar />
+      <Footer />;
+    </>
+  );
 }
 export default Home;
