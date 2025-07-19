@@ -31,8 +31,8 @@
   background-color: #ffffff;
   border: 1px solid #dce6f0;
   border-radius: 16px;
-  padding: 25px;
-  width: 300px;
+  width: 318px;
+  height: 188px;
   transition: box-shadow 0.3s ease;
 }
 
@@ -46,6 +46,7 @@
   font-size: 12px;
   line-height: 1.6;
   text-align: left;
+  padding-left: 20px;
 }
 
 .secondCard {
@@ -53,8 +54,8 @@
   border: 1px solid #dce6f0;
   color: white;
   border-radius: 16px;
-  padding: 25px;
-  width: 300px;
+  width: 318px;
+  height: 188px;
   transition: box-shadow 0.3s ease;
 }
 
@@ -62,6 +63,8 @@
   background-color: #62819d;
   width: 32px;
   height: 32px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .img3 {
@@ -72,7 +75,7 @@
 .hp1 p {
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .img1,
@@ -83,4 +86,16 @@
   margin-bottom: 8px;
   object-fit: cover;
   border-radius: 8px;
+}
+.secondClassP1 {
+  margin-left: 60px;
+  margin-top: -35px;
+}
+.firstClassP1 {
+  margin-left: 60px;
+  margin-top: -35px;
+}
+.img1 {
+  margin-left: 20px;
+  margin-top: 10px;
 }
