@@ -1,0 +1,72 @@
+.container {
+  margin: 20px;
+}
+.add_student_form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  font-family: "Inter", sans-serif;
+}
+
+.form_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.add_student_form input {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.form_actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+}
+
+.add_button {
+  background-color: #83c727;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cancel_button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #83c727;
+}
+.nav_bar {
+  display: flex;
+
+  margin-top: 20px;
+  margin-left: 424px;
+
+  padding-bottom: 10px;
+}
+.sync {
+  margin-top: 20px;
+  color: #004b2f;
+}
+.new {
+  text-align: center;
+  color: #004b2f;
+  margin-right: 180px;
+  margin-bottom: 30px;
+}
+.small_nput {
+  width: 342px;
+  height: 47px;
+}

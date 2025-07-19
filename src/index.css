@@ -75,7 +75,10 @@
 .hp1 p {
   display: flex;
   align-items: center;
+  font-size: 12px;
+  line-height: 1.6;
   text-align: left;
+  padding-left: 20px;
 }
 
 .img1,
